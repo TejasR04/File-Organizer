@@ -11,7 +11,7 @@ path = input("Enter the path to the directory you want to organize: ")
 if path == "":
 	path = os.getcwd()
 while not os.path.exists(path):
-	print("This path does not exist. Please check for errors and try again.")
+	print("This path does not exist. Please check for errors and try again. Example: C:\Users\travi\Downloads")
 	path = input("Enter the path to the directory you want to organize: ")
 	if path == "": path = os.getcwd()
     
